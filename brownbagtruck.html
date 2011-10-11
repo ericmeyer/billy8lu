@@ -5,68 +5,69 @@
   <meta charset="UTF-8"/>
 </head>
 <body>
-<div class="menu">
-  <h1 class="restaurant-name">BROWN BAG LUNCH TRUCK</h1>
-  <h2 class="restaurant-place">truck menu</h2>
+<div role="main">
+  <div role="heading">
+  <h1>BROWN BAG LUNCH TRUCK</h1>
+  <h2>truck menu</h2>
 
   <div class="marketing-links">
     <h3>follow</h3>
     <ul>
-      <li>facebook.com/brownbaglunchtruck</li>
-      <li>twitter.com/brownbagtruck</li>
-      <li>www.brownbaglunchtruck.com</li>
+      <li><a href="http://www.facebook.com/brownbaglunchtruck">facebook.com/brownbaglunchtruck</a></li>
+      <li><a href="http://www.twitter.com/brownbagtruck">twitter.com/brownbagtruck</a></li>
+      <li><a href="http://www.brownbaglunchtruck.com">www.brownbaglunchtruck.com</a></li>
     </ul>
   </div>
   
-  <div class="menu-section">
+  <div class="meats">
     <h2>MEATS</h2>
 
-    <div class="menu-item">
+    <div class="dish">
       <h3>brisket</h3>
       <ul>
         <li>$9</li>
-        <li><span class="menu-item-ingredient">brine:</span> pineapple juice, mexican coca-cola, chinese black vinegar, kosher salt</li>
-        <li><span class="menu-item-ingredient">smoke:</span> hickory, oak, 15 hours</li>
-        <li><span class="menu-item-ingredient">tiger cry sauce:</span> smoked tomatoes, lime juice, brown sugar, garlic, fish sauce, chili flakes, cilantro</li>
+        <li><span class="ingredient">brine:</span> pineapple juice, mexican coca-cola, chinese black vinegar, kosher salt</li>
+        <li><span class="ingredient">smoke:</span> hickory, oak, 15 hours</li>
+        <li><span class="ingredient">tiger cry sauce:</span> smoked tomatoes, lime juice, brown sugar, garlic, fish sauce, chili flakes, cilantro</li>
       </ul>
     </div>
 
-    <div class="menu-item">
-      <h3>pulled pork</h3>
+    <div itemscope itemtype="http://schema.org/Product" class="dish">
+      <h3 itemprop="name">pulled pork</h3>
       <ul>
-        <li>$8</li>
-        <li><span class="menu-item-ingredient">brine:</span> pineapple juice, mexican coca-cola, chinese black vinegar, kosher salt</li>
-        <li><span class="menu-item-ingredient">smoke:</span> apple/cherry wood, oak 12 hours</li>
-        <li><span class="menu-item-ingredient">tea party sauce:</span> banana ketchup, earl grey tea, green tea, rice wine vinegar, kecap manis, ginger</li>
+        <li itemprop="price">$8</li>
+        <li itemprop="description"><span class="ingredient">brine:</span> pineapple juice, mexican coca-cola, chinese black vinegar, kosher salt</li>
+        <li itemprop="description"><span class="ingredient">smoke:</span> apple/cherry wood, oak 12 hours</li>
+        <li itemprop="description"><span class="ingredient">tea party sauce:</span> banana ketchup, earl grey tea, green tea, rice wine vinegar, kecap manis, ginger</li>
       </ul>
     </div>
 
-    <div class="menu-item">
+    <div class="dish">
       <h3>peanut butter smothered smoked chicked</h3>
       <ul>
         <li>$8</li>
-        <li><span class="menu-item-ingredient">smother:</span> peanut butter, hoisin sauce, plum sauce, 7-up, garlic, scallions, soy sauce, cilantro, sambal, fish sauce</li>
-        <li><span class="menu-item-ingredient">smoke:</span> cherry wood, 4 hours</li>
-        <li><span class="menu-item-ingredient">jelly sauce:</span> orange marmalade, plum sauce, onion, rice wine vinegar, fish sauce</li>
+        <li><span class="ingredient">smother:</span> peanut butter, hoisin sauce, plum sauce, 7-up, garlic, scallions, soy sauce, cilantro, sambal, fish sauce</li>
+        <li><span class="ingredient">smoke:</span> cherry wood, 4 hours</li>
+        <li><span class="ingredient">jelly sauce:</span> orange marmalade, plum sauce, onion, rice wine vinegar, fish sauce</li>
       </ul>
     </div>
   </div>
 
-  <div class="menu-section">
+  <div class="sides">
     <h2>SIDES*</h2>
-    <h3 class="menu-section-price">$3 each</h3>
+    <h3>$3 each</h3>
 
-    <div class="menu-item">
+    <div class="dish">
       <h3>curry kissed yukon gold potato salad</h3>
       <p>potatoes, carrots, scallions, rice wine vinegar dressing, Thai curry infused mayo</p>
     </div>
 
-    <div class="menu-item">
+    <div class="dish">
       <h3>spicy elotes</h3>
       <p>charred whole corn on the cob, spicy japanese mayo, shaved parmigiano reggiano, cilantro, lime juice</p>
     </div>
 
-    <div class="menu-item">
+    <div class="dish">
       <h3>toasted garlic rice</h3>
       <p>jasmine rice, toasted garlic, oil pimenton, kosher salt, black pepper</p>
     </div>
@@ -76,21 +77,21 @@
     </div>
   </div>
 
-  <div class="menu-section">
+  <div class="extras">
     <h2>EXTRAS</h2>
     <h3>included with all meats</h3>
 
-    <div class="menu-item">
+    <div class="dish">
       <h3>cucumber slaw</h3>
       <p>english cucumber, red onion, carrot, rice wine vinegar, kosher salt, sesame oil, sugar</p>
     </div>
 
-    <div class="menu-item">
+    <div class="dish">
       <h3>bread</h3>
       <p>white, a barbecue standard. 'nuff said</p>
     </div>
 
-    <div class="menu-item">
+    <div class="dish">
       <h3>sauce</h3>
       <p>as specified per meat</p>
     </div>
