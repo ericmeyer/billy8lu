@@ -1,77 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset='utf-8'>
-
-  <title>ericmeyer/billy8lu @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #1a8674;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #e5798b; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #e5798b; }
-    h3 { text-align: center; color: #e5798b; }
-    a { color: #e5798b; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
+  <title>BROWN BAG LUNCH TRUCK</title>
+  <meta charset="UTF-8"/>
 </head>
-
 <body>
-  <a href="http://github.com/ericmeyer/billy8lu"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+<div role="main">
+  <div role="heading">
+  <h1>BROWN BAG LUNCH TRUCK</h1>
+  <h2>truck menu</h2>
 
-  <div id="container">
+  <div class="marketing-links">
+    <h3>follow</h3>
+    <ul>
+      <li><a href="http://www.facebook.com/brownbaglunchtruck">facebook.com/brownbaglunchtruck</a></li>
+      <li><a href="http://www.twitter.com/brownbagtruck">twitter.com/brownbagtruck</a></li>
+      <li><a href="http://www.brownbaglunchtruck.com">www.brownbaglunchtruck.com</a></li>
+    </ul>
+  </div>
+  
+  <div class="meats">
+    <h2>MEATS</h2>
 
-    <div class="download">
-      <a href="http://github.com/ericmeyer/billy8lu/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/ericmeyer/billy8lu/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+    <div class="dish">
+      <h3>brisket</h3>
+      <ul>
+        <li>$9</li>
+        <li><span class="ingredient">brine:</span> pineapple juice, mexican coca-cola, chinese black vinegar, kosher salt</li>
+        <li><span class="ingredient">smoke:</span> hickory, oak, 15 hours</li>
+        <li><span class="ingredient">tiger cry sauce:</span> smoked tomatoes, lime juice, brown sugar, garlic, fish sauce, chili flakes, cilantro</li>
+      </ul>
     </div>
 
-    <h1><a href="http://github.com/ericmeyer/billy8lu">billy8lu</a>
-      <span class="small">by <a href="http://github.com/ericmeyer">ericmeyer</a></span></h1>
-
-    <div class="description">
-      
+    <div itemscope itemtype="http://schema.org/Product" class="dish">
+      <h3 itemprop="name">pulled pork</h3>
+      <ul>
+        <li itemprop="price">$8</li>
+        <li itemprop="description"><span class="ingredient">brine:</span> pineapple juice, mexican coca-cola, chinese black vinegar, kosher salt</li>
+        <li itemprop="description"><span class="ingredient">smoke:</span> apple/cherry wood, oak 12 hours</li>
+        <li itemprop="description"><span class="ingredient">tea party sauce:</span> banana ketchup, earl grey tea, green tea, rice wine vinegar, kecap manis, ginger</li>
+      </ul>
     </div>
 
-    <h2>Authors</h2>
-<p>Eric Meyer (emeyer@8thlight.com)<br/>      </p>
-<h2>Contact</h2>
-<p> (emeyer@8thlight.com)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/ericmeyer/billy8lu/zipball/master">zip</a> or
-      <a href="http://github.com/ericmeyer/billy8lu/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/ericmeyer/billy8lu</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/ericmeyer/billy8lu">ericmeyer/billy8lu</a>
+    <div class="dish">
+      <h3>peanut butter smothered smoked chicked</h3>
+      <ul>
+        <li>$8</li>
+        <li><span class="ingredient">smother:</span> peanut butter, hoisin sauce, plum sauce, 7-up, garlic, scallions, soy sauce, cilantro, sambal, fish sauce</li>
+        <li><span class="ingredient">smoke:</span> cherry wood, 4 hours</li>
+        <li><span class="ingredient">jelly sauce:</span> orange marmalade, plum sauce, onion, rice wine vinegar, fish sauce</li>
+      </ul>
     </div>
-
   </div>
 
-  
+  <div class="sides">
+    <h2>SIDES*</h2>
+    <h3>$3 each</h3>
+
+    <div class="dish">
+      <h3>curry kissed yukon gold potato salad</h3>
+      <p>potatoes, carrots, scallions, rice wine vinegar dressing, Thai curry infused mayo</p>
+    </div>
+
+    <div class="dish">
+      <h3>spicy elotes</h3>
+      <p>charred whole corn on the cob, spicy japanese mayo, shaved parmigiano reggiano, cilantro, lime juice</p>
+    </div>
+
+    <div class="dish">
+      <h3>toasted garlic rice</h3>
+      <p>jasmine rice, toasted garlic, oil pimenton, kosher salt, black pepper</p>
+    </div>
+    
+    <div class="footnote">
+      *subject to availability. changes seasonally.
+    </div>
+  </div>
+
+  <div class="extras">
+    <h2>EXTRAS</h2>
+    <h3>included with all meats</h3>
+
+    <div class="dish">
+      <h3>cucumber slaw</h3>
+      <p>english cucumber, red onion, carrot, rice wine vinegar, kosher salt, sesame oil, sugar</p>
+    </div>
+
+    <div class="dish">
+      <h3>bread</h3>
+      <p>white, a barbecue standard. 'nuff said</p>
+    </div>
+
+    <div class="dish">
+      <h3>sauce</h3>
+      <p>as specified per meat</p>
+    </div>
+  </div>
+</div>
 </body>
 </html>
