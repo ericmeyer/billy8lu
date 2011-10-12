@@ -6,7 +6,7 @@
         // TODO: need to clean this up or externalize it
         cssBlock = [
            "#microdata-container {",
-           "    position: fixed; bottom: 10px; left: 10px; background: white; padding: 5px; color: #444; ",
+           "    right: 10px; position: fixed; bottom: 10px; text-align: right; background: white; padding: 5px; color: #444; ",
            "    -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 1px solid black; ",
            "    -webkit-box-shadow: 0 0 5px black; -moz-box-shadow: 0 0 5px black; box-shadow: 0 0 5px; ",
            "    font: normal 11px Droid Sans Mono, Consolas, Inconsolata, monospace; letter-spacing: -1px; ",
@@ -15,7 +15,7 @@
            "#microdata-container li { list-style: none; padding: 0; margin: 0; cursor: pointer; }",
            "#microdata-container>li.expanded ul { display: block; }",
            "#microdata-container li:hover { background: #ff9 }",
-           "#microdata-container ul { display: none; padding: 0; margin-left: 10px; color: #999 }",
+           "#microdata-container ul { display: none; padding: 0; margin-right: 10px; color: #999 }",
            ".microdata-highlighted { outline: 2px dashed red !important; background: rgba(255,0,0,0.3) !important; color: black !important }",
            "#microdata-container .invalid { color: red !important }"
         ].join('\n');
